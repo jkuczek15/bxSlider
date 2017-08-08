@@ -1,9 +1,12 @@
 <html>
     <head>
+        <!-- CSS -->
+        <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
+        <link rel="stylesheet/less" type="text/less" href="assets/css/bxSlider.less" />
+        <!-- JavaScript -->
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/jquery.bxslider.min.js"></script>
-        <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
-        <link href="assets/css/styles.bxslider.css" rel="stylesheet" />
+        <script src="assets/js/less.min.js"></script>
     </head>
     <body>
         <ul class="bxslider">
@@ -15,7 +18,9 @@
     </body>
 </html>
 <script>
-$(document).ready(function() {
-    $('.bxslider').bxSlider();
+$(document).ready(function(){
+    $('.bxslider').bxSlider({
+        pager: false
+    });
 });
 </script>
