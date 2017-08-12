@@ -1,0 +1,14 @@
+/*#######################################
+        Slider CSS Configuration 
+#########################################*/
+
+.carousel {
+    /* Set to auto to take width + height of content inside slider */
+    width: auto;        /* Width of slider container */
+    height: auto;       /* Height of slider container */
+}
+
+.stretch {
+    width: 100%;        /* Width of images within slide content */
+    height: auto;       /* Height of images within slide content */
+}
