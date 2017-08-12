@@ -2,13 +2,28 @@
         Slider CSS Configuration 
 #########################################*/
 
+/* Set to auto to take width + height of content inside slider */
+/* Margin example: margin: 200 0 0 200; - Centers slider vertically and horizontally */
+/* Recommended: Keep width and height set to auto and only change image sizes, slider size adjusts according to image size */
+
 .carousel {
-    /* Set to auto to take width + height of content inside slider */
-    width: auto;        /* Width of slider container */
-    height: auto;       /* Height of slider container */
+    width: auto;            /* Width of slider container */
+    height: auto;           /* Height of slider container */
+    position: relative;     /* Position of slider container */
+    margin: 0 auto;         /* Set the position of the slider container using margins */
+    padding: 0 auto;        /* Set the padding inside the slider container */  
 }
 
 .stretch {
-    width: 100%;        /* Width of images within slide content */
-    height: auto;       /* Height of images within slide content */
+    width: 100%;            /* Width of images within slide content */
+    height: auto;           /* Height of images within slide content */
+}
+
+.caption-container > * {
+    float: center;          /* Position the caption to the left, right, or center */
+    /* Font settings for the caption text */
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: "normal";  
+    font-size:  25px;
+    color: white;
 }
