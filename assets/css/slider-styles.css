@@ -21,9 +21,11 @@
 
 .caption-container > * {
     float: center;          /* Position the caption to the left, right, or center */
+    margin: 0 0 0 0;        /* Position the caption using margins */
     /* Font settings for the caption text */
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-weight: "normal";  
     font-size:  25px;
     color: white;
+    background-color: auto;
 }
