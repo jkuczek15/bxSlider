@@ -1,9 +1,6 @@
-===========================================
-===========================================
-    Customizable Bootstrap Slider
+
+# Customizable Bootstrap Slider
 https://v4-alpha.getbootstrap.com/components/carousel/
-===========================================
-===========================================
 
 There are two configuration files for the slider:
 
